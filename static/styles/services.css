@@ -1,0 +1,102 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+/* Services Section Alt */
+.service-alt-section {
+    width: 100%;
+    padding: 4rem;
+    display: grid;
+    gap: 2rem;
+    position: relative;
+    /* background: var(--neutral-900); */
+    background: linear-gradient(180deg, var(--neutral-100), white);
+    /* background-color: var(--neutral-200); */
+}
+.service-alt-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    justify-content: center;
+    z-index: 99;
+}
+.service-alt-header-col {
+    width: 100%;
+}
+.service-alt-header-col h4 {
+    /* background-color: white; */
+    /* color: white; */
+}
+.service-alt-header-col h2 {
+    margin-bottom: 0;
+    /* color: white; */
+}
+.service-alt-header-col p {
+    margin-bottom: 1rem;
+    /* color: var(--neutral-200); */
+}
+.service-alt-body {
+    width: 100%;
+    background: url('/static/Images/skyline3.jpg'), no-repeat;
+    background-position: 50% 10%;
+    background-size: cover;
+    height: 40rem;
+    border-radius: 8px;
+    /* background-attachment: fixed; */
+    overflow: hidden;
+}
+#featuredSection > .service-alt-body {
+    background: url('/static/Images/skyline3.jpg');
+}
+.service-alt-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 0;
+    padding-top: 4rem;
+    background: var(--image-overlay);
+    /* background-color: rgba(0, 0, 0, 0.158); */
+    backdrop-filter: blur(25px) brightness(.8);
+}
+.service-alt-card {
+    padding: 1rem;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.service_icon {
+    width: fit-content;
+    padding: 12px;
+    font-size: var(--font-size-h1);
+    color: white !important;
+    background: var(--gradient);
+    /* background-color: var(--brand-support); */
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+.service-alt-card h3 {
+    color: white;
+}
+.service-alt-card p {
+    color: var(--neutral-100);
+}
+.service-alt-card .link {
+    width: fit-content;
+    color: var(--brand-primary);
+    text-decoration: none;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-weight: 500;
+    padding: 12px 20px;
+    border-radius: 8px;
+    background-color: var(--brand-accent);
+}
+/*  */
+

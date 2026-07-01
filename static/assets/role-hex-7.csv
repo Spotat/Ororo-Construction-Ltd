@@ -1,0 +1,8 @@
+﻿Role,Hex,Usage
+Brand Primary,#0B4A3B,"Headers, primary text on light backgrounds, brand blocks"
+Accent Action,#F5A623,"Primary CTAs, highlights, safety/attention elements"
+Support Green,#2C6E4B,"Badges, links, secondary CTAs"
+Neutral Light,#F7F7F7,"Page backgrounds, card backgrounds"
+Neutral Mid,#E6E9EC,"Panels, borders, subtle separators"
+Neutral Dark,#1F2937,"Body text, footer background, high‑contrast text"
+Warning / Error,#D64545,"Form errors, urgent alerts"

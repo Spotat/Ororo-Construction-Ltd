@@ -1,0 +1,116 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+}
+
+.service-alt-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    justify-content: space-between;
+    z-index: 99;
+    margin: 0% !important;
+    padding: 0% !important;
+}
+#featuredSection > .service-alt-header {
+    flex-direction: column;
+    width: 60%;
+    gap: 0;
+}
+/* #featuredSection .service-alt-header-col > h4,
+#featuredSection .service-alt-header h2, */
+#featuredSection .service-alt-header-col p {
+    text-align: center;
+    font-size: var(--font-size-h2) !important;
+}
+
+#featuredSection .service-alt-header-col {
+    display: grid;
+    place-items: center;
+}
+#featuredSection .service-alt-header-col:nth-child(1) h2 {
+    display: grid;
+    place-items: center;
+    display: none;
+}
+.service-alt-header-col {
+    width: 100%;
+}
+.service-alt-header-col h4 {
+    /* background-color: white; */
+    /* color: white; */
+}
+.service-alt-header-col h2 {
+    margin-bottom: 0;
+    /* color: white; */
+}
+.service-alt-header-col p {
+    margin-bottom: 1rem;
+    /* color: var(--neutral-200); */
+}
+
+
+/* Featured Section */
+#featuredSection {
+    place-items: center;
+    padding: 4rem;
+    /* background: linear-gradient(180deg, #f7f7f7, white); */
+}
+.showcase-container {
+    width: 100%;
+    /* height: 35rem; */
+    overflow: hidden;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+.showcase-box {
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+.showcase-box img {
+    width: 100%;
+    height: auto;
+    /* height: 20rem; */
+    object-fit: cover;
+    object-position: 50% 40%;
+    border-radius: 8px;
+    filter: brightness(.8);
+}
+.showcase-body {
+    background-color: var(--neutral-100);
+    /* background: var(--image-overlay); */
+    width: 100%;
+    /* position: absolute; */
+    bottom: 1rem;
+    left: 1rem;
+    border-radius: 8px;
+    backdrop-filter: blur(15px);
+    padding: 1rem;
+
+}
+.showcase-body .badge {
+    color: white;
+}
+.showcase-body .link {
+    width: fit-content;
+    color: var(--brand-primary);
+    text-decoration: none;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-weight: 500;
+    padding: 12px 20px;
+    border-radius: 8px;
+    background-color: var(--brand-accent);
+}
+.showcase-body h3, .showcase-body p {
+    /* color: white; */
+}
+/*  */

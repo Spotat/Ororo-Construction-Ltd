@@ -1,0 +1,196 @@
+@media (max-width: 800px) {
+
+    p {
+        font-weight: normal;
+    }
+    h1.absoluteBg {
+        font-size: 2.5rem;
+        opacity: .5;
+        top: -1rem;
+    }
+    .process-section h2 {
+        font-size: var(--font-size-h2);
+    }
+    .number-line {
+        font-size: 2rem;
+    }
+
+    .slider {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 1rem;
+        height: fit-content;
+    }
+    .stats-section {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        place-items: center;
+        padding: 2rem 1rem;
+    }
+    .stat-box {
+        place-items: center;
+    }
+    .stat-box h2 {
+        font-size: 2rem;
+        /* font-size: var(--font-size-h1); */
+        /* font-size: 2.5rem; */
+        font-weight: 400;
+    }
+    
+    .about-section {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 1rem;
+        padding: 1rem;
+    }
+    .about-image {
+        margin-top: 2rem;
+    }
+    .value-box h3 {
+        text-wrap: nowrap;
+    }
+    .value-box p {
+        font-size: .8235rem;
+    }
+
+    .service-alt-section {
+        padding: 2rem 1rem;
+        gap: 1rem;
+    }
+    .service-alt-header {
+        flex-direction: column;
+        gap: 0rem;
+    }
+    #featuredSection > .service-alt-header {
+        width: 100%;
+        padding-top: 5rem;
+    }
+    .service-alt-header-col > p {
+        font-size: var(--font-size-h2);
+        color: var(--brand-primary);
+        font-weight: 600;
+        font-family: "Poppins-Medium";
+    }
+    .service-alt-body {
+        height: fit-content;
+    }
+    .service_icon {
+        font-size: 2rem !important;
+    }
+    .service-alt-container {
+        grid-template-columns: 1fr;
+        backdrop-filter: blur(5px) brightness(.6);
+        padding-top: 2rem;
+        gap: 1rem;
+    }
+
+    .services-section {
+        padding: 2rem 1rem !important;
+        /* background-color: var(--brand-primary); */
+        background-color: var(--neutral-200);
+        /* place-items: start; */
+    }
+    .services-section > p{
+        text-align: center;
+        width: 100%;
+        /* color: white; */
+    }
+    .service-container {
+        grid-template-columns: 1fr;
+        margin-top: 2rem;
+    }
+    .service-box {
+        height: 15rem;
+    }
+
+    .qualities-section {
+        display: flex;
+        flex-direction: column-reverse;
+        /* grid-template-columns: 1fr; */
+        gap: 1rem !important;
+        padding: 3rem 1rem 2rem;
+    }
+    h1.absoluteBg {
+        font-size: 2rem;
+        font-weight: 100 !important;
+    }
+    .qualities-row h2 {
+        width: 100%;
+    }
+    .qualities-container {
+        grid-template-columns: 1fr;
+        margin-top: 2rem;
+    }
+    .quality-box {
+        /* transform: rotate(0deg) !important; */
+    }
+    .process-section {
+        padding: 2rem 1rem;
+    }
+    .process-section h2 {
+        font-weight: 500 !important;
+        width: fit-content;
+        padding: 2px 8px;
+        border-radius: 30px;
+        background-color: var(--neutral-900);
+        font-size: var(--font-size-sm);
+        color: var(--brand-accent);
+    }
+    .process-section > p {
+        width: 100%;
+        font-size: var(--font-size-h2);
+        color: var(--brand-primary);
+        font-weight: 600;
+        font-family: "Poppins-Medium";
+    }
+    .process-container {
+        margin-top: 2rem;
+        grid-template-columns: 1fr;
+    }
+    .timeline-card {
+        gap: 1rem;
+    }
+    .timeline-card:hover {
+        transform: translateY(0);
+    }
+    .timeline-card p b {
+        color: var(--brand-support);
+        font-weight: 400;
+        display: none;
+    }
+    .deliverable-container {
+    }
+
+    .showcase-container {
+        grid-template-columns: 1fr;
+    }
+    .showcase-box img {
+        height: auto;
+    }
+
+    .testimonial-section {
+        padding: 2rem 1rem;
+    }
+    .testimonial-section > p {
+        width: 100%;
+    }
+    .testimonial-container {
+        grid-template-columns: 1fr;
+        margin-top: 2rem;
+    }
+    .testimonial-banner {
+        height: 20rem;
+    }
+    .contact-section {
+        padding: 2rem 1rem;
+    }
+    .contact-banner {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .value-container {
+        flex-wrap: wrap;
+    }
+}
