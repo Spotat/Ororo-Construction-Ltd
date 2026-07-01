@@ -13,7 +13,7 @@ body {
 .hero-container {
     height: 100%;
     /* background: url('/static/Images/skyline4.jpg'), no-repeat; */
-    background: url('/static/Images/skyline1.jpg'), no-repeat;
+    background: url('./static/Images/skyline1.jpg'), no-repeat;
     background-size: cover;
     background-position: 0 0;
 }
@@ -205,7 +205,7 @@ body {
 }
 .service-alt-body {
     width: 100%;
-    background: url('/static/Images/skyline3.jpg'), no-repeat;
+    background: url('./static/Images/skyline3.jpg'), no-repeat;
     background-position: 50% 10%;
     background-size: cover;
     height: 40rem;
@@ -214,7 +214,7 @@ body {
     overflow: hidden;
 }
 #featuredSection > .service-alt-body {
-    background: url('/static/Images/skyline3.jpg');
+    background: url('./static/Images/skyline3.jpg');
 }
 .service-alt-container {
     width: 100%;
