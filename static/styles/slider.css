@@ -3,7 +3,7 @@
 .hero-container {
     height: 100%;
     /* background: url('/static/Images/skyline4.jpg'), no-repeat; */
-    background: url('/static/Images/skyline1.jpg'), no-repeat;
+    background: url('../Images/skyline1.jpg'), no-repeat;
     background-size: cover;
     background-position: 0 0;
 }
