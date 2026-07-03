@@ -77,7 +77,7 @@
         backdrop-filter: brightness(.2);
     }
     .slide_content {
-        padding: 2rem 1rem;
+        padding: 2rem 0;
     }
     .slide_content p {
         width: 100%;

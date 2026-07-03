@@ -35,11 +35,11 @@
             <div class="logo">
                 <h1><span>Ororo</span>Master</h1>
             </div>
-            <nav class="navigation">
-                <a href="#">Home</a>
-                <a href="#" class="active">About Us</a>
-                <a href="#">Services</a>
-                <a href="#">Projects</a>
+            <nav class="navigation" id="sideNav">
+                <a href="../index.html">Home</a>
+                <a href="./about.html" class="active">About Us</a>
+                <a href="./services.html">Services</a>
+                <a href="./projects.html">Projects</a>
                 <a href="#">Blog</a>
                 <a href="#">Contact</a>
             </nav>
@@ -47,6 +47,8 @@
                 +254 7123 45678 
                 <span class="lni lni-telephone-1"></span>
             </button>
+            <span class="navOpen btn-primary lni lni-menu-hamburger-1" id="navOpen" onclick="openNav()"></span>
+            <span class="navClose lni lni-xmark btn-primary" id="navClose" onclick="closeNav()"></span>
         </header>
         <div class="slider">
             <div class="slide_row">
@@ -71,6 +73,7 @@
                 </div>
             </div>
         </div>
+        <div class="cover" id="coverBg"></div>
     </div>
     <section class="about-section">
         <div class="about-row">
@@ -239,6 +242,13 @@
             </div>
         </div>
     </section>
+    <section class="contact-section">
+        <div class="contact-banner">
+            <h2>Have any upcoming project?</h2>
+            <p>Explore how Ororo Master can turn your vision into reality with our expertise and dedication to excellence.</p>
+            <button class="btn-primary">Get started</button>
+        </div>
+    </section>
     <footer class="footer">
         <div class="footer-row"></div>
         <div class="footer-row">
@@ -277,5 +287,6 @@
             </div>
         </div>
     </footer>
+    <script src="../static/scripts/nav.js"></script>
 </body>
 </html>

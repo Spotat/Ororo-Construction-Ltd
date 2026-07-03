@@ -1,4 +1,13 @@
-
+.cover {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background: var(--image-overlay);
+    z-index: 999;
+    display: none;
+    overflow: hidden;
+}
 .marquee-container {
     width: 100%;
     /* position: sticky; */
@@ -72,7 +81,7 @@
     /* position: sticky; */
     /* top: 2.55rem; */
     /* left: 0; */
-    z-index: 999;
+    z-index: 1000;
     backdrop-filter: brightness(.8);
     /* background: var(--image-overlay); */
     /* background-color: var(--neutral-100); */
@@ -116,6 +125,7 @@
     background-color: var(--brand-accent);
 }
 button.contact_button {
+    /* margin: 0% !important; */
     /* padding: 20px 10px; */
     /* font-size: 14px; */
     /* background-color: #ffaa00; */
@@ -123,6 +133,14 @@ button.contact_button {
     border-radius: 0% !important;
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd; */
+}
+span.navOpen, span.navClose {
+    padding: 12px !important;
+    /* background-color: var(--brand-accent);
+    font-size: var(--font-size-h2);
+    color: white !important;
+    border-radius: 8px; */
+    display: none;
 }
 
 /*  */
@@ -162,7 +180,7 @@ input {
     /* margin-bottom: 1rem; */
     font-family: "Poppins-Medium";
 }
-button {
+.form-section button {
     margin-right: auto;
 }
 /*  */
@@ -260,14 +278,44 @@ button {
         /* animation: ride 40s ease-in-out infinite; */
     }
     .header {
+        position: relative;
+        width: 100% !important;
         padding: 1rem;
         gap: 2rem;
         border: none !important;
+        display: flex !important;
+        justify-content: space-between !important;
         /* border-bottom: 1px solid #f7f7f7; */
         /* backdrop-filter: blur(1px); */
     }
     .navigation {
+        position: absolute;
+        top: -600%;
+        left: 50%;
+        width: 95%;
+        height: fit-content;
+        display: grid !important;
+        /* display: none; */
+        transform: translateX(-50%);
+        transition: all .2s ease;
+        background: white !important;
+        z-index: 999 !important;
+        /* border-radius: 8px; */
+        padding: 1rem;
+        opacity: 0;
+        box-shadow: rgba(0,0,0,0.2) 5px 8px 20px;
+    }
+    button.contact_button {
         display: none;
+    }
+    span.navOpen {
+        display: block;
+        width: fit-content;
+    }
+    .navClose {
+        /* margin-left: auto;
+        margin-bottom: 1rem; */
+        /* padding: 12px !important; */
     }
 
     .form-section {

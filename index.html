@@ -34,11 +34,11 @@
             <div class="logo">
                 <h1><span>Ororo</span>Master</h1>
             </div>
-            <nav class="navigation">
+            <nav class="navigation" id="sideNav">
                 <a href="#" class="active">Home</a>
-                <a href="#">About Us</a>
-                <a href="#">Services</a>
-                <a href="#">Projects</a>
+                <a href="./templates/about.html">About Us</a>
+                <a href="./templates/services.html">Services</a>
+                <a href="./templates/projects.html">Projects</a>
                 <a href="#">Blog</a>
                 <a href="#">Contact</a>
             </nav>
@@ -46,6 +46,8 @@
                 +254 7123 45678 
                 <span class="lni lni-telephone-1"></span>
             </button>
+            <span class="navOpen btn-primary lni lni-menu-hamburger-1" id="navOpen" onclick="openNav()"></span>
+            <span class="navClose lni lni-xmark btn-primary" id="navClose" onclick="closeNav()"></span>
         </header>
         <div class="slider">
             <div class="slide_row">
@@ -96,6 +98,7 @@
                 </div>
             </div>
         </div>
+        <div class="cover" id="coverBg"></div>
     </div>
     <div class="stats-section">
         <div class="stat-box">
@@ -388,7 +391,7 @@
         </div>
         <div class="showcase-container">
             <div class="showcase-box">
-                <img src="./static/Images/proj 4.png" alt="">
+                <img src="/static/Images/proj 4.png" alt="">
                 <div class="showcase-body">
                     <!-- <span class="service_icon lni lni-buildings-1"></span> -->
                     <h3>Nairobi Mixed‑Use Development </h3>
@@ -398,7 +401,7 @@
                 </div>
             </div>
             <div class="showcase-box">
-                <img src="./static/Images/proj 5.png" alt="">
+                <img src="/static/Images/proj 5.png" alt="">
                 <!-- <img src="/static/Images/WhatsApp Image 2026-06-24 at 13.15.40 (1).jpeg" alt=""> -->
                 <div class="showcase-body">
                     <!-- <span class="service_icon lni lni-buildings-1"></span> -->
@@ -409,7 +412,7 @@
                 </div>
             </div>
             <div class="showcase-box">
-                <img src="./static/Images/proj 6.png" alt="">
+                <img src="/static/Images/proj 6.png" alt="">
                 <!-- <img src="/static/Images/WhatsApp Image 2026-06-24 at 13.15.40 (1).jpeg" alt=""> -->
                 <div class="showcase-body">
                     <!-- <span class="service_icon lni lni-buildings-1"></span> -->
@@ -581,5 +584,6 @@
     <div class="rights">
         <p>Copyright 2026 Ororo Master.</p>
     </div>
+    <script src="./static/scripts/nav.js"></script>
 </body>
 </html>

@@ -29,16 +29,16 @@
             </div>
         </div>
     </div>
-    <div class="hero-container" style="display: none;">
+    <div class="hero-container">
         <header class="header">
             <div class="logo">
                 <h1><span>Ororo</span>Master</h1>
             </div>
-            <nav class="navigation">
-                <a href="#">Home</a>
-                <a href="#">About Us</a>
-                <a href="#">Services</a>
-                <a href="#" class="active">Projects</a>
+            <nav class="navigation" id="sideNav">
+                <a href="../index.html">Home</a>
+                <a href="./about.html">About Us</a>
+                <a href="./services.html">Services</a>
+                <a href="./projects.html" class="active">Projects</a>
                 <a href="#">Blog</a>
                 <a href="#">Contact</a>
             </nav>
@@ -46,13 +46,15 @@
                 +254 7123 45678 
                 <span class="lni lni-telephone-1"></span>
             </button>
+            <span class="navOpen btn-primary lni lni-menu-hamburger-1" id="navOpen" onclick="openNav()"></span>
+            <span class="navClose lni lni-xmark btn-primary" id="navClose" onclick="closeNav()"></span>
         </header>
         <div class="slider">
             <div class="slide_row">
                 <div class="slide_content">
                     <h1>Our Projects</h1>
                     <!-- <p>End‑to‑end project delivery — design inputs, project management and materials supply across Kenya.</p> -->
-                    <div class="button-container">
+                    <div class="button-container" style="display: none;">
                         <button class="btn-primary">
                             <span class="lni lni-whatsapp"></span>
                             Request Free site visit
@@ -69,6 +71,7 @@
                 </div>
             </div>
         </div>
+        <div class="cover" id="coverBg"></div>
     </div>
 
     <section class="services-section" id="featuredSection" style="display: grid;">
@@ -192,5 +195,6 @@
             </div>
         </div>
     </footer>
+    <script src="../static/scripts/nav.js"></script>
 </body>
 </html>
