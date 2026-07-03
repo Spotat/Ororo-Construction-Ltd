@@ -8,7 +8,7 @@
 /* About section */
 .about-section {
     width: 100%;
-    padding: 0 4rem 4rem;
+    padding: 4rem 4rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 4rem;
@@ -171,7 +171,7 @@ h1.absoluteBg {
 }
 .service-alt-body {
     width: 100%;
-    background: url('/static/Images/skyline3.jpg'), no-repeat;
+    background: url('../Images/skyline3.jpg'), no-repeat;
     background-position: 50% 10%;
     background-size: cover;
     height: 40rem;
@@ -180,7 +180,7 @@ h1.absoluteBg {
     overflow: hidden;
 }
 #featuredSection > .service-alt-body {
-    background: url('/static/Images/skyline3.jpg');
+    background: url('../Images/skyline3.jpg');
 }
 .service-alt-container {
     width: 100%;
@@ -273,7 +273,7 @@ h1.absoluteBg {
     object-fit: cover;
 }
 .testimonial-banner::after {
-    content: url('/static/Images/general_1.jpeg');
+    content: url('../Images/general_1.jpeg');
     position: absolute;
     top: 0;
     left: 0;
