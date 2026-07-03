@@ -22,15 +22,15 @@
 
 @font-face {
     font-family: 'Poppins';
-    src: url('../static/assets/fonts/Poppins/Poppins-Bold.ttf');
+    src: url('../assets/fonts/Poppins/Poppins-Bold.ttf');
 }
 @font-face {
     font-family: 'Poppins-Medium';
-    src: url('../static/assets/fonts/Poppins/Poppins-Medium.ttf');
+    src: url('../assets/fonts/Poppins/Poppins-Medium.ttf');
 }
 @font-face {
     font-family: Roboto;
-    src: url('../static/assets/fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf');
+    src: url('../assets/fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf');
 }
 
 h1 {
